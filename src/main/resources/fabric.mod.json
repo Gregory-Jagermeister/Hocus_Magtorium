@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "hocus",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Hocus Magnitorium",
+  "description": "A Magic Mod that adds progression, spells and a variety of new features",
   "authors": [
-    "Me!"
+    "Codedin97"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,12 +14,12 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/hocus/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.codedin97.hocus.HocusMod"
     ]
   },
   "mixins": [
